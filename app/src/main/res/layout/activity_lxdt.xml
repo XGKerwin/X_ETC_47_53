@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/back3"
+            />
+
+        <ImageButton
+            android:layout_marginTop="70dp"
+            android:id="@+id/btn_1geren"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_transparent"
+            android:src="@drawable/map_location"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_2changjing"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btn_1geren"
+            android:background="@drawable/bg_transparent"
+            android:src="@drawable/map_layer"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_3xiaoche"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btn_2changjing"
+            android:background="@drawable/bg_transparent"
+            android:src="@drawable/map_marker"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_4chi"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btn_3xiaoche"
+            android:background="@drawable/bg_transparent"
+            android:src="@drawable/map_line"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_tishi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:text="小车地图信息"
+        />
+
+
+</LinearLayout>
