@@ -43,6 +43,8 @@ public class Activity_dzbc1 extends AppCompatActivity {
         initView();
         init();
 
+        Elistview.setGroupIndicator(null);
+
         getOkHttp();
 
         biaotiWddd.setOnClickListener(new View.OnClickListener() {

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#6B6BB3"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="导航视图"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/list_dhst"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="夜景视图"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/list_yjst"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标准视图"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/list_bzst"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="卫星视图"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/list_wxst"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="交通视图"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/list_jtst"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
