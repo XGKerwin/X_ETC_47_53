@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 nav.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                        switch (menuItem.getItemId()){
+                        switch (menuItem.getItemId()) {
                             case R.id.dzbc:
                                 Intent intent = new Intent(MainActivity.this, Activity_dzbc1.class);
                                 startActivity(intent);
